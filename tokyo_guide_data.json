@@ -1,0 +1,158 @@
+{
+  "title": "도쿄 친구 가이드",
+  "base_hotel": {
+    "name": "Hotel Resol Ueno",
+    "area": "우에노",
+    "note": "우에노역 도보 3분"
+  },
+  "maps_url_format": "https://www.google.com/maps/search/?api=1&query={NAME}&query_place_id={PLACE_ID}",
+  "zones": [
+    {
+      "id": 1,
+      "name": "우에노·아사쿠사",
+      "access": "호텔 도보권",
+      "sections": [
+        {
+          "category": "관광지",
+          "places": [
+            { "name_ko": "센소지", "name_en": "Senso-ji", "feature": "도쿄 最古 사찰. 저녁·이른 아침이 한적함", "recommended": true, "essential": true, "place_id": "ChIJ8T1GpMGOGGARDYGSgpooDWw", "lat": 35.7147651, "lng": 139.7966553, "maps_url": "https://www.google.com/maps/search/?api=1&query=Senso-ji&query_place_id=ChIJ8T1GpMGOGGARDYGSgpooDWw" },
+            { "name_ko": "카미나리몬", "name_en": "Kaminarimon Gate", "feature": "거대 빨간 등롱. 센소지 정문, 대표 사진 명소", "recommended": false, "place_id": "ChIJ0YwG28aOGGARvRKAXIBWqNk", "lat": 35.7111163, "lng": 139.7963656, "maps_url": "https://www.google.com/maps/search/?api=1&query=Kaminarimon%20Gate&query_place_id=ChIJ0YwG28aOGGARvRKAXIBWqNk" },
+            { "name_ko": "호조몬", "name_en": "Hozomon Gate Asakusa", "feature": "센소지 내문. 사람 적어 사진 찍기 좋음", "recommended": false, "place_id": "ChIJA8RvD8GOGGARdoKfX1LNAcQ", "lat": 35.7139333, "lng": 139.7966333, "maps_url": "https://www.google.com/maps/search/?api=1&query=Hozomon%20Gate%20Asakusa&query_place_id=ChIJA8RvD8GOGGARdoKfX1LNAcQ" },
+            { "name_ko": "나카미세 거리", "name_en": "Nakamise Shopping Street", "feature": "250m 옛 상점가. 길거리 음식·기념품", "recommended": false, "place_id": "ChIJPd37MMGOGGARvJ2hfxoiNVE", "lat": 35.7118413, "lng": 139.7964542, "maps_url": "https://www.google.com/maps/search/?api=1&query=Nakamise%20Shopping%20Street&query_place_id=ChIJPd37MMGOGGARvJ2hfxoiNVE" },
+            { "name_ko": "아사쿠사 신사", "name_en": "Asakusa Shrine", "feature": "센소지 옆 조용한 신사. 관광객 적음", "recommended": false, "place_id": "ChIJx62FmcGOGGARDxQTl8Zx6U4", "lat": 35.7151665, "lng": 139.7974389, "maps_url": "https://www.google.com/maps/search/?api=1&query=Asakusa%20Shrine&query_place_id=ChIJx62FmcGOGGARDxQTl8Zx6U4" },
+            { "name_ko": "도쿄 스카이트리", "name_en": "Tokyo Skytree", "feature": "일본 최고 높이 634m 전망탑. 아사쿠사서 한 정거장 — 묶어서 코스. 소라마치 쇼핑몰·야경", "recommended": false, "essential": true, "lat": 35.7100627, "lng": 139.8107004, "maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Skytree" },
+            { "name_ko": "우에노 공원", "name_en": "Ueno Park", "feature": "호텔 도보권. 박물관·동물원·벚꽃 명소. 한국인 단골 산책 코스", "recommended": false, "essential": true, "lat": 35.7156, "lng": 139.774, "maps_url": "https://www.google.com/maps/search/?api=1&query=Ueno%20Park" },
+            { "name_ko": "아키하바라 전자상가", "name_en": "Akihabara Electric Town", "feature": "전자상가·애니·피규어·메이드카페. 우에노서 두 정거장", "recommended": false, "essential": true, "lat": 35.6984, "lng": 139.7731, "maps_url": "https://www.google.com/maps/search/?api=1&query=Akihabara%20Electric%20Town" }
+          ]
+        },
+        {
+          "category": "맛집",
+          "places": [
+            { "name_ko": "Gyukatsu Motomura Ueno", "name_en": "Gyukatsu Motomura Ueno", "feature": "돌판에 직접 굽는 소고기카츠. 평점4.8/1만", "recommended": true, "place_id": "ChIJVVXaSJ6OGGARLPqp6yIRrlo", "lat": 35.7104455, "lng": 139.7744533, "maps_url": "https://www.google.com/maps/search/?api=1&query=Gyukatsu%20Motomura%20Ueno&query_place_id=ChIJVVXaSJ6OGGARLPqp6yIRrlo" },
+            { "name_ko": "Ramen Kamo to Negi", "name_en": "Ramen Kamo to Negi Ueno", "feature": "오리 육수 라멘. 24시간. 줄 빨리 빠짐", "recommended": false, "place_id": "ChIJ6-Rvg5-OGGAR99AELnNenOU", "lat": 35.7083768, "lng": 139.7752537, "maps_url": "https://www.google.com/maps/search/?api=1&query=Ramen%20Kamo%20to%20Negi%20Ueno&query_place_id=ChIJ6-Rvg5-OGGAR99AELnNenOU" },
+            { "name_ko": "Hakata Tonkotsu Ichiban", "name_en": "Hakata Tonkotsu Ramen Ichiban Ueno", "feature": "하카타식 돈코츠 라멘. 14석 작은 가게", "recommended": false, "place_id": "ChIJg9-dwtaPGGARATZrumJcivI", "lat": 35.7080387, "lng": 139.7751343, "maps_url": "https://www.google.com/maps/search/?api=1&query=Hakata%20Tonkotsu%20Ramen%20Ichiban%20Ueno&query_place_id=ChIJg9-dwtaPGGARATZrumJcivI" },
+            { "name_ko": "Asakusa Gyukatsu", "name_en": "Asakusa Gyukatsu Kaminarimon", "feature": "규카츠. 평점4.8/1.3만. 아사쿠사 가는 길", "recommended": false, "place_id": "ChIJAQBs38aOGGARoOBOR4LoBdI", "lat": 35.7107673, "lng": 139.7959519, "maps_url": "https://www.google.com/maps/search/?api=1&query=Asakusa%20Gyukatsu%20Kaminarimon&query_place_id=ChIJAQBs38aOGGARoOBOR4LoBdI" },
+            { "name_ko": "Asakusa Gyukatsu 별관", "name_en": "Asakusa Gyukatsu Sub-branch", "feature": "본점 줄 길면 여기 (도보 2분)", "recommended": false, "place_id": "ChIJgxOGIQCPGGAR8KQqI0AbT28", "lat": 35.7102253, "lng": 139.7967439, "maps_url": "https://www.google.com/maps/search/?api=1&query=Asakusa%20Gyukatsu%20Sub-branch&query_place_id=ChIJgxOGIQCPGGAR8KQqI0AbT28" },
+            { "name_ko": "Tonkatsu Yamabe", "name_en": "Tonkatsu Yamabe Ueno", "feature": "미슐랭 빕그루망 후보. 가성비. 카운터석", "recommended": false, "place_id": "ChIJ82LowZ-OGGARKB9j4mPBZ3Q", "lat": 35.7086737, "lng": 139.7738358, "maps_url": "https://www.google.com/maps/search/?api=1&query=Tonkatsu%20Yamabe%20Ueno&query_place_id=ChIJ82LowZ-OGGARKB9j4mPBZ3Q" },
+            { "name_ko": "WAGYU SUKIYAKI GOKU 아사쿠사", "name_en": "Wagyu Sukiyaki Goku Asakusa", "feature": "와규 스키야키. 평점5.0. 계란 디핑", "recommended": true, "place_id": "ChIJv1TzmsWPGGAREPlh12snhyg", "lat": 35.7114922, "lng": 139.7961524, "maps_url": "https://www.google.com/maps/search/?api=1&query=Wagyu%20Sukiyaki%20Goku%20Asakusa&query_place_id=ChIJv1TzmsWPGGAREPlh12snhyg" },
+            { "name_ko": "Kuroge Wagyu Ichinoya", "name_en": "Kuroge Wagyu Ichinoya Asakusa", "feature": "와규를 박스에 담아 계란에 찍어먹음", "recommended": false, "place_id": "ChIJf555jwSPGGARS_KDFiREz9M", "lat": 35.7122837, "lng": 139.7972069, "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuroge%20Wagyu%20Ichinoya%20Asakusa&query_place_id=ChIJf555jwSPGGARS_KDFiREz9M" },
+            { "name_ko": "Premium Sake Pub Gashue", "name_en": "Premium Sake Pub Gashue", "feature": "사케 페어링. 점장이 영어로 설명. 일휴무", "recommended": true, "place_id": "ChIJyVCeeoSPGGARyVJSchtpw38", "lat": 35.7094576, "lng": 139.7778578, "maps_url": "https://www.google.com/maps/search/?api=1&query=Premium%20Sake%20Pub%20Gashue&query_place_id=ChIJyVCeeoSPGGARyVJSchtpw38" },
+            { "name_ko": "Tsukioka", "name_en": "Tsukioka Higashiueno", "feature": "작은 로컬 이자카야. 사시미·조개국", "recommended": false, "place_id": "ChIJdQREefePGGARZugEaQX-Dfg", "lat": 35.7107975, "lng": 139.7778112, "maps_url": "https://www.google.com/maps/search/?api=1&query=Tsukioka%20Higashiueno&query_place_id=ChIJdQREefePGGARZugEaQX-Dfg" },
+            { "name_ko": "SUSHI EDOMARU", "name_en": "Sushi Edomaru Asakusa", "feature": "정통 에도마에 스시. 평점4.7. 점심·저녁", "recommended": true, "place_id": "ChIJ47OOoJiPGGAR29oDSo5Df1c", "lat": 35.7116662, "lng": 139.7974758, "maps_url": "https://www.google.com/maps/search/?api=1&query=Sushi%20Edomaru%20Asakusa&query_place_id=ChIJ47OOoJiPGGAR29oDSo5Df1c" },
+            { "name_ko": "Sarashinatenko", "name_en": "Sarashinatenko Asakusa", "feature": "정통 소바. 글루텐프리 가능. 예약 권장", "recommended": true, "place_id": "ChIJ649LTACPGGARYGKKNqZtmA4", "lat": 35.7149973, "lng": 139.7949918, "maps_url": "https://www.google.com/maps/search/?api=1&query=Sarashinatenko%20Asakusa&query_place_id=ChIJ649LTACPGGARYGKKNqZtmA4" },
+            { "name_ko": "Asakusa Udon", "name_en": "Asakusa Udon Main Store", "feature": "아침 7시 오픈. 셀프오더·영어메뉴", "recommended": false, "place_id": "ChIJ01gyQQCPGGARJgCZ5sh2wW4", "lat": 35.7158825, "lng": 139.7957267, "maps_url": "https://www.google.com/maps/search/?api=1&query=Asakusa%20Udon%20Main%20Store&query_place_id=ChIJ01gyQQCPGGARJgCZ5sh2wW4" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "신주쿠",
+      "access": "긴자선 약 25분",
+      "sections": [
+        {
+          "category": "관광지",
+          "places": [
+            { "name_ko": "도쿄 도청 전망대", "name_en": "Tokyo Metropolitan Government Building", "feature": "무료 전망대. 45층, 후지산 가능. 저녁 7시 프로젝션쇼", "recommended": true, "essential": true, "place_id": "ChIJoTcat9SMGGAR6GGG8zdcZvE", "lat": 35.6894807, "lng": 139.6916863, "maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Metropolitan%20Government%20Building&query_place_id=ChIJoTcat9SMGGAR6GGG8zdcZvE" },
+            { "name_ko": "도청 북쪽 전망대", "name_en": "Tokyo Metropolitan Government Building North Observation Deck", "feature": "줄 짧을 때 이쪽으로 (단 ~17:30 마감, 저녁 야경·쇼는 남쪽 전망대)", "recommended": false, "place_id": "ChIJnctryNSMGGARLv4MknPFseU", "lat": 35.689733, "lng": 139.6916563, "maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Metropolitan%20Government%20Building%20North%20Observation%20Deck&query_place_id=ChIJnctryNSMGGARLv4MknPFseU" },
+            { "name_ko": "신주쿠 교엔", "name_en": "Shinjuku Gyoen National Garden", "feature": "도심 속 거대 정원. 입장 500엔. 월요일 휴무", "recommended": false, "place_id": "ChIJPyOTG8KMGGARh_IXobWxHmo", "lat": 35.6851763, "lng": 139.7100517, "maps_url": "https://www.google.com/maps/search/?api=1&query=Shinjuku%20Gyoen%20National%20Garden&query_place_id=ChIJPyOTG8KMGGARh_IXobWxHmo" },
+            { "name_ko": "오모이데 요코초", "name_en": "Omoide Yokocho Memory Lane", "feature": "서쪽 출구 야키토리 골목. 옛 정취", "recommended": false, "place_id": "ChIJP9eKBdeMGGAR0zzBXJNVj5A", "lat": 35.6927011, "lng": 139.6995778, "maps_url": "https://www.google.com/maps/search/?api=1&query=Omoide%20Yokocho%20Memory%20Lane&query_place_id=ChIJP9eKBdeMGGAR0zzBXJNVj5A" },
+            { "name_ko": "골든가이", "name_en": "Shinjuku Golden Gai", "feature": "200개 작은 바 골목. 저녁 5시부터. 일부 커버차지. ⚠️ 여자끼리면 — 가격 표시된 가게만, 호객꾼 따라가지 말기, 일찍 갈수록 안전(가부키초 바로 옆)", "recommended": false, "place_id": "ChIJr7mGZdmMGGARjxoMFeHApXE", "lat": 35.6941118, "lng": 139.7047611, "maps_url": "https://www.google.com/maps/search/?api=1&query=Shinjuku%20Golden%20Gai&query_place_id=ChIJr7mGZdmMGGARjxoMFeHApXE" },
+            { "name_ko": "고질라 헤드", "name_en": "Godzilla Head Shinjuku", "feature": "가부키쵸 도호시네마 위. 무료. 야간 라이트업. ⚠️ 가부키초 한복판 — 사진만 찍고 호객·심야 골목은 피하기", "recommended": false, "place_id": "ChIJzRzI3HSNGGARRwZW6AtJfi0", "lat": 35.6950521, "lng": 139.7019117, "maps_url": "https://www.google.com/maps/search/?api=1&query=Godzilla%20Head%20Shinjuku&query_place_id=ChIJzRzI3HSNGGARRwZW6AtJfi0" }
+          ]
+        },
+        {
+          "category": "맛집",
+          "places": [
+            { "name_ko": "Gyukatsu Motomura 신주쿠 본점", "name_en": "Gyukatsu Motomura Shinjuku Main Branch", "feature": "규카츠 본점. 평점4.9. 줄 길면 예약", "recommended": true, "place_id": "ChIJPR5EUkCNGGARyhvN1EVWEc0", "lat": 35.6946198, "lng": 139.7005769, "maps_url": "https://www.google.com/maps/search/?api=1&query=Gyukatsu%20Motomura%20Shinjuku%20Main%20Branch&query_place_id=ChIJPR5EUkCNGGARyhvN1EVWEc0" },
+            { "name_ko": "Momo Paradise", "name_en": "Momo Paradise Shinjuku Higashiguchi", "feature": "무한리필 샤브샤브. 평점4.9. 영어 가이드", "recommended": false, "place_id": "ChIJvUEnaNqMGGAR46u74Waa6FM", "lat": 35.6910075, "lng": 139.7026367, "maps_url": "https://www.google.com/maps/search/?api=1&query=Momo%20Paradise%20Shinjuku%20Higashiguchi&query_place_id=ChIJvUEnaNqMGGAR46u74Waa6FM" },
+            { "name_ko": "Shinjuku Sushi Hatsume", "name_en": "Shinjuku Sushi Hatsume", "feature": "오마카세 17코스. 평점4.9. 저녁", "recommended": false, "place_id": "ChIJJ7CsTOWNGGARoNI_jEvCE3g", "lat": 35.6940502, "lng": 139.6980158, "maps_url": "https://www.google.com/maps/search/?api=1&query=Shinjuku%20Sushi%20Hatsume&query_place_id=ChIJJ7CsTOWNGGARoNI_jEvCE3g" },
+            { "name_ko": "Teppan Baby", "name_en": "Teppan Baby Shinjuku", "feature": "오코노미야키 전문. 가부키쵸 지하. 예약권장. ⚠️ 가부키초 안 — 예약 후 바로 입장, 호객꾼 무시", "recommended": false, "place_id": "ChIJLZrOfdeMGGARdcjAP55yY00", "lat": 35.6940479, "lng": 139.7012389, "maps_url": "https://www.google.com/maps/search/?api=1&query=Teppan%20Baby%20Shinjuku&query_place_id=ChIJLZrOfdeMGGARdcjAP55yY00" }
+          ]
+        },
+        {
+          "category": "카페",
+          "places": [
+            { "name_ko": "All Seasons Coffee", "name_en": "All Seasons Coffee Shinjuku", "feature": "푸어오버 + 베이커리. 신주쿠 동쪽", "recommended": false, "place_id": "ChIJq6rxNsOMGGARKn8-OyTuyls", "lat": 35.6897966, "lng": 139.7079209, "maps_url": "https://www.google.com/maps/search/?api=1&query=All%20Seasons%20Coffee%20Shinjuku&query_place_id=ChIJq6rxNsOMGGARKn8-OyTuyls" },
+            { "name_ko": "After All Coffee", "name_en": "After All Coffee Nishishinjuku", "feature": "작은 카페. 바스크 치즈케이크. 화·수 휴무", "recommended": true, "place_id": "ChIJ0zOJ9z-NGGARtTSfT0UGA34", "lat": 35.695322, "lng": 139.6976707, "maps_url": "https://www.google.com/maps/search/?api=1&query=After%20All%20Coffee%20Nishishinjuku&query_place_id=ChIJ0zOJ9z-NGGARtTSfT0UGA34" },
+            { "name_ko": "MATCHA CAFE MAME TO CHA", "name_en": "Matcha Cafe Mame to Cha Shinjuku", "feature": "마차 전문. 평점4.8. 오트밀크 가능", "recommended": false, "place_id": "ChIJE-A23tKNGGARgnzvcc0oncg", "lat": 35.693009, "lng": 139.7059644, "maps_url": "https://www.google.com/maps/search/?api=1&query=Matcha%20Cafe%20Mame%20to%20Cha%20Shinjuku&query_place_id=ChIJE-A23tKNGGARgnzvcc0oncg" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "하라주쿠·시부야·다이칸야마",
+      "access": "지하철 약 30분",
+      "sections": [
+        {
+          "category": "관광지",
+          "places": [
+            { "name_ko": "메이지 진구", "name_en": "Meiji Jingu", "feature": "도심 속 절대적 고요. 새벽 추천", "recommended": true, "essential": true, "place_id": "ChIJ5SZMmreMGGARcz8QSTiJyo8", "lat": 35.6763976, "lng": 139.6993259, "maps_url": "https://www.google.com/maps/search/?api=1&query=Meiji%20Jingu&query_place_id=ChIJ5SZMmreMGGARcz8QSTiJyo8" },
+            { "name_ko": "시부야 스카이", "name_en": "Shibuya Sky", "feature": "옥상 전망대. 예약 필수, 일몰 슬롯 인기", "recommended": true, "essential": true, "place_id": "ChIJ4Rr2JWiLGGARcyRSHuZ-9G8", "lat": 35.6586719, "lng": 139.7019848, "maps_url": "https://www.google.com/maps/search/?api=1&query=Shibuya%20Sky&query_place_id=ChIJ4Rr2JWiLGGARcyRSHuZ-9G8" },
+            { "name_ko": "요요기 공원", "name_en": "Yoyogi Park", "feature": "거대 공원. 일요일 록큰롤 댄서 공연", "recommended": false, "place_id": "ChIJMwpiebSMGGARPr_454zHvDQ", "lat": 35.6700649, "lng": 139.6949656, "maps_url": "https://www.google.com/maps/search/?api=1&query=Yoyogi%20Park&query_place_id=ChIJMwpiebSMGGARPr_454zHvDQ" },
+            { "name_ko": "요요기 시계탑", "name_en": "Yoyogi Park Clock Tower", "feature": "일요일 댄스 공연 만남의 장소", "recommended": false, "place_id": "ChIJD1M2GbCMGGARmUFziof73JM", "lat": 35.6690816, "lng": 139.7007898, "maps_url": "https://www.google.com/maps/search/?api=1&query=Yoyogi%20Park%20Clock%20Tower&query_place_id=ChIJD1M2GbCMGGARmUFziof73JM" },
+            { "name_ko": "캣 스트리트", "name_en": "Cat Street Harajuku", "feature": "하라주쿠~시부야 보행자 거리. 작은 매장·카페", "recommended": false, "place_id": "ChIJbQP4obCNGGARd8hiRA_lrn0", "lat": 35.6658317, "lng": 139.7050603, "maps_url": "https://www.google.com/maps/search/?api=1&query=Cat%20Street%20Harajuku&query_place_id=ChIJbQP4obCNGGARd8hiRA_lrn0" },
+            { "name_ko": "다이칸야마 츠타야", "name_en": "Tsutaya Books Daikanyama", "feature": "세계급 잡지·책 큐레이션. 평일 오전 한산", "recommended": true, "place_id": "ChIJgfjQvk-LGGARqVwq1_ra-dY", "lat": 35.6488866, "lng": 139.6997888, "maps_url": "https://www.google.com/maps/search/?api=1&query=Tsutaya%20Books%20Daikanyama&query_place_id=ChIJgfjQvk-LGGARqVwq1_ra-dY" },
+            { "name_ko": "시부야 스크램블 교차로", "name_en": "Shibuya Crossing", "feature": "세계 최대 횡단보도. 도쿄 상징 인증샷. 저녁 5~8시 절정. 스타벅스 2층서 내려다보기", "recommended": false, "essential": true, "lat": 35.6594945, "lng": 139.7005713, "maps_url": "https://www.google.com/maps/search/?api=1&query=Shibuya%20Crossing" },
+            { "name_ko": "하치코 동상", "name_en": "Hachiko Statue", "feature": "충견 하치코 동상. 시부야 만남의 장소·대표 포토존. 스크램블 바로 옆", "recommended": false, "essential": true, "lat": 35.659, "lng": 139.7006, "maps_url": "https://www.google.com/maps/search/?api=1&query=Hachiko%20Statue" },
+            { "name_ko": "타케시타 거리", "name_en": "Takeshita Street", "feature": "하라주쿠 청춘문화 거리. 크레페·패션·소품. 주말 인파 주의", "recommended": false, "essential": true, "lat": 35.6716, "lng": 139.704, "maps_url": "https://www.google.com/maps/search/?api=1&query=Takeshita%20Street" },
+            { "name_ko": "메가 돈키호테 시부야", "name_en": "MEGA Don Quijote Shibuya Honten", "feature": "거대 할인점. 기념품·간식·화장품 면세(여권 지참). 한국인 쇼핑 성지. 심야까지", "recommended": false, "essential": true, "lat": 35.6616, "lng": 139.6985, "maps_url": "https://www.google.com/maps/search/?api=1&query=MEGA%20Don%20Quijote%20Shibuya%20Honten" }
+          ]
+        },
+        {
+          "category": "맛집",
+          "places": [
+            { "name_ko": "Gyukatsu Motomura 하라주쿠", "name_en": "Gyukatsu Motomura Harajuku", "feature": "규카츠 하라주쿠점", "recommended": false, "place_id": "ChIJK7NEQ6OMGGAROeZ_ndIeQrE", "lat": 35.6706585, "lng": 139.7072227, "maps_url": "https://www.google.com/maps/search/?api=1&query=Gyukatsu%20Motomura%20Harajuku&query_place_id=ChIJK7NEQ6OMGGAROeZ_ndIeQrE" },
+            { "name_ko": "WAGYU SUKIYAKI GOKU 하라주쿠", "name_en": "Wagyu Sukiyaki Goku Harajuku", "feature": "와규 스키야키. 평점4.9. 6석, 예약권장", "recommended": false, "place_id": "ChIJfUPhEGGNGGARqWeCEPgCfo4", "lat": 35.6706963, "lng": 139.7071717, "maps_url": "https://www.google.com/maps/search/?api=1&query=Wagyu%20Sukiyaki%20Goku%20Harajuku&query_place_id=ChIJfUPhEGGNGGARqWeCEPgCfo4" },
+            { "name_ko": "Roast Beef Ohno", "name_en": "Roast Beef Ohno Harajuku", "feature": "로스트비프 덮밥. 평점4.7. 양·소스 선택", "recommended": false, "place_id": "ChIJAQAQgaSMGGAR31zJxUoIEtc", "lat": 35.6690422, "lng": 139.7062561, "maps_url": "https://www.google.com/maps/search/?api=1&query=Roast%20Beef%20Ohno%20Harajuku&query_place_id=ChIJAQAQgaSMGGAR31zJxUoIEtc" },
+            { "name_ko": "Harajuku Gyozarou", "name_en": "Harajuku Gyozarou", "feature": "만두 전문. 가성비. 현금만. 줄 빨리 빠짐", "recommended": false, "place_id": "ChIJF6tIb6SMGGAR2iuQeXjrMIs", "lat": 35.6675016, "lng": 139.7061026, "maps_url": "https://www.google.com/maps/search/?api=1&query=Harajuku%20Gyozarou&query_place_id=ChIJF6tIb6SMGGAR2iuQeXjrMIs" },
+            { "name_ko": "Ivy Place", "name_en": "Ivy Place Daikanyama", "feature": "츠타야 바로 옆. 정원테라스. 팬케이크", "recommended": false, "place_id": "ChIJVf6awU-LGGAR9xtiDgToqXk", "lat": 35.649358, "lng": 139.699943, "maps_url": "https://www.google.com/maps/search/?api=1&query=Ivy%20Place%20Daikanyama&query_place_id=ChIJVf6awU-LGGAR9xtiDgToqXk" },
+            { "name_ko": "Isshin Daikanyama", "name_en": "Isshin Daikanyama", "feature": "정통 가정식. 점심 현금만. 주말 11시 전 줄", "recommended": false, "place_id": "ChIJY-do8UWLGGARigu1QkQVVSk", "lat": 35.6471899, "lng": 139.7017788, "maps_url": "https://www.google.com/maps/search/?api=1&query=Isshin%20Daikanyama&query_place_id=ChIJY-do8UWLGGARigu1QkQVVSk" },
+            { "name_ko": "Heavenly Island", "name_en": "Heavenly Island Lifestyle Daikanyama", "feature": "하와이안 브런치. 에그베네딕트", "recommended": false, "place_id": "ChIJEbTGGf6LGGARp6x3eQyXuIA", "lat": 35.6484026, "lng": 139.7015819, "maps_url": "https://www.google.com/maps/search/?api=1&query=Heavenly%20Island%20Lifestyle%20Daikanyama&query_place_id=ChIJEbTGGf6LGGARp6x3eQyXuIA" },
+            { "name_ko": "이치란 라멘 시부야", "name_en": "Ichiran Shibuya", "feature": "1인 부스 돈코츠 라멘. 한국인 필수 체인. 24시간·티켓 자판기·맛 커스텀", "recommended": false, "essential": true, "lat": 35.6611094, "lng": 139.7010793, "maps_url": "https://www.google.com/maps/search/?api=1&query=Ichiran%20Shibuya" }
+          ]
+        },
+        {
+          "category": "카페",
+          "places": [
+            { "name_ko": "CAFE REISSUE", "name_en": "Cafe Reissue Harajuku", "feature": "3D 라떼아트 가능. 월요일 휴무", "recommended": true, "place_id": "ChIJfyW8OaOMGGARiYF53TCqEsM", "lat": 35.6711763, "lng": 139.7079583, "maps_url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Reissue%20Harajuku&query_place_id=ChIJfyW8OaOMGGARiYF53TCqEsM" },
+            { "name_ko": "SHAKA SHAKA MATCHA", "name_en": "Shaka Shaka Matcha Omotesando", "feature": "진짜 마차 전문. 평점5.0. 오모테산도", "recommended": true, "place_id": "ChIJUSuKOX-LGGARVuXA1reZU3U", "lat": 35.664685, "lng": 139.7153047, "maps_url": "https://www.google.com/maps/search/?api=1&query=Shaka%20Shaka%20Matcha%20Omotesando&query_place_id=ChIJUSuKOX-LGGARVuXA1reZU3U" },
+            { "name_ko": "&t Cafe", "name_en": "and t Cafe Omotesando", "feature": "정원테라스. 반려견 동반. 브런치", "recommended": false, "place_id": "ChIJJcCF-NqNGGAR87VYl79c_cw", "lat": 35.6688274, "lng": 139.7091435, "maps_url": "https://www.google.com/maps/search/?api=1&query=and%20t%20Cafe%20Omotesando&query_place_id=ChIJJcCF-NqNGGAR87VYl79c_cw" },
+            { "name_ko": "Samoyed Cafe", "name_en": "Samoyed Cafe moffu Harajuku", "feature": "사모예드 강아지 카페. 예약제", "recommended": false, "place_id": "ChIJ_3zm0X2NGGARd3jLNTcLxVM", "lat": 35.6707268, "lng": 139.7074793, "maps_url": "https://www.google.com/maps/search/?api=1&query=Samoyed%20Cafe%20moffu%20Harajuku&query_place_id=ChIJ_3zm0X2NGGARd3jLNTcLxVM" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "긴자·롯폰기·아자부다이",
+      "access": "지하철 약 25분",
+      "sections": [
+        {
+          "category": "관광지",
+          "places": [
+            { "name_ko": "긴자식스 옥상정원", "name_en": "Ginza Six Rooftop Garden", "feature": "무료 옥상정원. 7~23시. 긴자 전망", "recommended": false, "place_id": "ChIJ_wniXxmLGGARLgE_DYPbKiY", "lat": 35.6699047, "lng": 139.7641037, "maps_url": "https://www.google.com/maps/search/?api=1&query=Ginza%20Six%20Rooftop%20Garden&query_place_id=ChIJ_wniXxmLGGARLgE_DYPbKiY" },
+            { "name_ko": "teamLab Borderless", "name_en": "teamLab Borderless Azabudai", "feature": "디지털 아트 미술관. 예약 필수. 화요일 휴무", "recommended": true, "essential": true, "place_id": "ChIJQ5Sa1PqJGGARUSaNKKOrMVg", "lat": 35.6620689, "lng": 139.7432671, "maps_url": "https://www.google.com/maps/search/?api=1&query=teamLab%20Borderless%20Azabudai&query_place_id=ChIJQ5Sa1PqJGGARUSaNKKOrMVg" },
+            { "name_ko": "teamLab Planets", "name_en": "teamLab Planets Tokyo", "feature": "발 담그는 디지털 아트. 도요스(이 구역에서 ~4km 떨어짐). 예약 필수", "recommended": false, "offzone": true, "place_id": "ChIJSeco5wiJGGARItbTS8lQ5G0", "lat": 35.6491207, "lng": 139.7897739, "maps_url": "https://www.google.com/maps/search/?api=1&query=teamLab%20Planets%20Tokyo&query_place_id=ChIJSeco5wiJGGARItbTS8lQ5G0" },
+            { "name_ko": "National Art Center", "name_en": "The National Art Center Tokyo", "feature": "거대 글래스월 건축물. 롯폰기. 화요일 휴무", "recommended": false, "place_id": "ChIJP-vO9nuLGGARGJ2q8uryJUA", "lat": 35.665289, "lng": 139.726374, "maps_url": "https://www.google.com/maps/search/?api=1&query=The%20National%20Art%20Center%20Tokyo&query_place_id=ChIJP-vO9nuLGGARGJ2q8uryJUA" },
+            { "name_ko": "도쿄타워", "name_en": "Tokyo Tower", "feature": "도쿄 상징 333m 적탑. 야경·라이트업. 시바공원·조죠지서 사진", "recommended": false, "essential": true, "lat": 35.6585805, "lng": 139.7454329, "maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Tower" },
+            { "name_ko": "츠키지 장외시장", "name_en": "Tsukiji Outer Market", "feature": "신선 해산물·계란말이·길거리 음식. 오전이 활기. 긴자서 가까움", "recommended": false, "essential": true, "lat": 35.6655, "lng": 139.7705, "maps_url": "https://www.google.com/maps/search/?api=1&query=Tsukiji%20Outer%20Market" }
+          ]
+        },
+        {
+          "category": "맛집",
+          "places": [
+            { "name_ko": "Tsujita Ginza", "name_en": "Tsujita Ginza", "feature": "진한 츠케멘. 평점4.7. 현금만", "recommended": true, "place_id": "ChIJ1WzWeC-LGGARKltXcP7uLqg", "lat": 35.6714326, "lng": 139.7673806, "maps_url": "https://www.google.com/maps/search/?api=1&query=Tsujita%20Ginza&query_place_id=ChIJ1WzWeC-LGGARKltXcP7uLqg" },
+            { "name_ko": "Bistro Fukumimi", "name_en": "Bistro Fukumimi Ginza", "feature": "야키토리·이자카야. 평점4.8. 예약 권장", "recommended": false, "place_id": "ChIJJYeAD--LGGARLaquE3rEVpQ", "lat": 35.6717759, "lng": 139.7604117, "maps_url": "https://www.google.com/maps/search/?api=1&query=Bistro%20Fukumimi%20Ginza&query_place_id=ChIJJYeAD--LGGARLaquE3rEVpQ" },
+            { "name_ko": "Godaime Wagyu", "name_en": "Godaime Wagyu Tokyo", "feature": "와규 버거·스테이크. 평점4.7", "recommended": false, "place_id": "ChIJr-_pfgiLGGARjXW5wt-NVZw", "lat": 35.6661747, "lng": 139.7650596, "maps_url": "https://www.google.com/maps/search/?api=1&query=Godaime%20Wagyu%20Tokyo&query_place_id=ChIJr-_pfgiLGGARjXW5wt-NVZw" },
+            { "name_ko": "Shogun Burger", "name_en": "Shogun Burger Azabudai", "feature": "와규 100% 버거. 아자부다이힐즈. 평점4.8", "recommended": false, "place_id": "ChIJmUqEx0GLGGARSab4JH5I9Ng", "lat": 35.6616382, "lng": 139.7403669, "maps_url": "https://www.google.com/maps/search/?api=1&query=Shogun%20Burger%20Azabudai&query_place_id=ChIJmUqEx0GLGGARSab4JH5I9Ng" },
+            { "name_ko": "Balcony by 6th", "name_en": "Balcony by 6th Azabudai", "feature": "정원테라스. 팬케이크·트러플프라이. 아침 가능", "recommended": false, "place_id": "ChIJKzqOV0iLGGARjM1z-f6-TCA", "lat": 35.6609484, "lng": 139.7405229, "maps_url": "https://www.google.com/maps/search/?api=1&query=Balcony%20by%206th%20Azabudai&query_place_id=ChIJKzqOV0iLGGARjM1z-f6-TCA" },
+            { "name_ko": "SUMI", "name_en": "Sumi Azabudai Janu Tokyo", "feature": "파인다이닝 오마카세. 아자부다이. 예약 필수", "recommended": false, "place_id": "ChIJW3lC7VeLGGARFKTc8sVt6pw", "lat": 35.6618523, "lng": 139.7404204, "maps_url": "https://www.google.com/maps/search/?api=1&query=Sumi%20Azabudai%20Janu%20Tokyo&query_place_id=ChIJW3lC7VeLGGARFKTc8sVt6pw" },
+            { "name_ko": "Irodori Tsukiji", "name_en": "Irodori Tsukiji", "feature": "츠키지 장외시장 뒷골목 8석 오마카세 (디너 ¥6,000~8,000대). 목 휴무", "recommended": true, "place_id": "ChIJlS0X90uLGGARnpnKvrv_QwM", "lat": 35.6659423, "lng": 139.7708131, "maps_url": "https://www.google.com/maps/search/?api=1&query=Irodori%20Tsukiji&query_place_id=ChIJlS0X90uLGGARnpnKvrv_QwM" }
+          ]
+        }
+      ]
+    }
+  ]
+}
